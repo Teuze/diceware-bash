@@ -1,17 +1,25 @@
 Shuffle - a tool to select random words from a source, to generate a strong passphrase
 
 ## Usage
+
 ```
-# ./diceware.sh source.txt [selection_count]
-./diceware.sh sherlock-holmes-adventures.txt 7
+./shuffle sources/sherlock-holmes.txt 6
 ```
 
-See [Project Gutenberg most popular](http://www.gutenberg.org/ebooks/search/%3Fsort_order%3Ddownloads) for some good sources.
+First argument is your book or word list, second argument is your passphrase length (in words).
+
+## Sources
+
+For books :
+
+ - [Project Gutenberg](http://www.gutenberg.org/)
+ - [Wikisource](https://wikisource.org)
+
+For more serious wordlists :
+
+ - [Electronic Frontier Foundation](https://www.eff.org/dice)
+ - [Diceware Homepage](http://world.std.com/~reinhold/diceware.html)
 
 ## Credits
 
-Forked from James Barwells repository.
-
-Inspired by and lifted from:
-* [Passphrases That You Can Memorize — But That Even the NSA Can't Guess](https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/) by Micah Lee
-* [Passphrases via shell pipeline](http://leancrew.com/all-this/2015/04/passphrases-via-shell-pipeline/) by Dr. Drang
+Forked from James Barwells repository. Kudos to him ☺

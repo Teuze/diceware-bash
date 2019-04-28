@@ -1,15 +1,16 @@
-diceware.sh - a tool to select random words from a source, to generate a strong passphrase
+Shuffle - a tool to select random words from a source, to generate a strong passphrase
 
 ## Usage
 ```
-./diceware.sh source.txt [selection_count]
-
-# e.g.
-./diceware.sh wutheringheights.txt 7
+# ./diceware.sh source.txt [selection_count]
+./diceware.sh sherlock-holmes-adventures.txt 7
 ```
+
 See [Project Gutenberg most popular](http://www.gutenberg.org/ebooks/search/%3Fsort_order%3Ddownloads) for some good sources.
 
 ## Credits
+
+Forked from James Barwells repository.
 
 Inspired by and lifted from:
 * [Passphrases That You Can Memorize — But That Even the NSA Can't Guess](https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/) by Micah Lee
